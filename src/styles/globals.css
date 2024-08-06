@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img {
+  background-image: url("../assests/profile-removebg-preview.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.shadow-b {
+  box-shadow: 7px 5px 44px 4px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 7px 5px 44px 4px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 7px 5px 44px 4px rgba(0, 0, 0, 0.48);
+}
